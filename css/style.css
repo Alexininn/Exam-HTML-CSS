@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.wrap_first_page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f8f2ef;
+}
+.head_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 10vh;
+  width: 80vw;
+  background-color: #312b2c;
+}
+.head_menu__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vmin;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  width: 10vw;
+}
+.head_menu__item:hover {
+  background-color: #ff3b43;
+  cursor: pointer;
+}
+@font-face {
+  font-family: 'Roberto';
+  src: url(../fonts/RobertoSans-Black.ttf);
+}
+@font-face {
+  font-family: 'Winston';
+  src: url(../fonts/Winston-Black.ttf);
+}
+@font-face {
+  font-family: 'LetBd';
+  src: url(../fonts/SztyletBd.otf);
+}
+.preview {
+  width: 50%;
+  height: 90vh;
+}
+.preview__title {
+  font-family: 'LetBd', Arial, Helvetica, sans-serif;
+  font-size: 7vmin;
+  margin-top: 16vh;
+  box-sizing: border-box;
+  padding-left: 10vw;
+}
+.preview__subtitle {
+  font-family: 'Roberto', Arial, Helvetica, sans-serif;
+  font-size: 2vmin;
+  color: #a7a29e;
+  box-sizing: border-box;
+  padding-top: 2vmin;
+  padding-left: 10vw;
+}
+.preview__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Winston';
+  background-color: #ff2b2b;
+  color: white;
+  border-radius: 0.5vmin;
+  width: 15vw;
+  height: 7vh;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  box-sizing: border-box;
+}
+.our_video {
+  width: 50%;
+  height: 90vh;
+}
+.wrap_second_page {
+  height: 100%;
+  width: 100%;
+}
