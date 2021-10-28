@@ -1,0 +1,58 @@
+/* Шестая страница */
+
+.footer {
+    height: 12%;
+    width: 100%;
+    background-color: #312b2c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 30%;
+    height: 100%;
+    color: #a6a6a6;
+    font-family: 'lato';
+}
+
+.footer__container_left {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer__container_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmin;
+}
+
+.logo {
+    width: 9%;
+    height: 33%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.twiter {
+    background-image: url(../img/logotwiter.png);
+    cursor: pointer;
+}
+
+.linkedIn {
+    background-image: url(../img/In.png);
+    cursor: pointer;
+}
+
+.google {
+    background-image: url(../img/instagram.png);
+    cursor: pointer;
+}
+
+.facebook {
+    background-image: url(../img/logoFacebook.png);
+    cursor: pointer;
+}

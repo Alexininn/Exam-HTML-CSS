@@ -1,0 +1,132 @@
+/* Первая страница */
+
+.wrap_first_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    background-color: #f8f2ef;
+}
+
+.head_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    width: 80vw;
+    background-color: #312b2c;
+    margin-top: 3vmin;
+}
+
+.head_menu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2vmin;
+    width: 10vw;
+    user-select: none;
+    transition: var(--mainTransition);
+}
+
+.item {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head_menu__item:hover {
+    background-color: #ff3b43;
+    cursor: pointer;
+}
+.head_menu__item:active {
+    background-color: hsl(352deg 80% 50%);
+}
+
+.preview {
+    width: 50%;
+    height: 87vh;
+}
+
+.preview__title {
+    margin: 16vh 0% 0% 10vw;
+    font-family: 'LetBd', Arial, Helvetica, sans-serif;
+    font-size: 3.2vw;
+}
+
+.preview__subtitle {
+    margin: 2vmin 0% 0% 10vw;
+}
+
+.subtitle {
+    font-family: 'Roberto', Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: hsl(27deg 5% 64%);
+}
+
+.preview__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #ff2b2b;
+    margin: 10vh 0% 0% 10vw;
+    transition: var(--mainTransition);
+}
+
+.button {
+    font-family: 'Winston';
+    border-radius: 0.5vmin;
+    width: 15vw;
+    height: 7vh;
+}
+
+.preview__button:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #f8f2ef;
+    color: #ff2b2b;
+    border: solid #ff2b2b 0.5vmin;
+    cursor: pointer;
+}
+.preview__button:active {
+    opacity: 0.6;
+}
+.ourVideo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 87vh;
+    background-color: #f8f2ef;
+}
+
+.ourVideo__icon {
+    position: relative;
+    text-align: center;
+    top: -30vmin;
+    transition: var(--mainTransition);
+    user-select: none;
+}
+
+.ourVideo__videoWrap {
+    width: 75%;
+    height: 48vh;
+    margin-bottom: 10%;
+}
+
+.ourVideo__videoWrap:hover .ourVideo__icon {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+.ourVideo__videoWrap:active .ourVideo__icon {
+    transform: scale(1.2, 1.2);
+}
+
+.ourVideo__video1Stage {
+    width: 100%;
+    height: 48vh;
+    object-fit: cover;
+    box-shadow: 0vmin 0vmin 4px 0px;
+}

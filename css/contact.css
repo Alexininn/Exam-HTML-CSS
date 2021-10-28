@@ -1,0 +1,127 @@
+/* пятая страница */
+
+.wrap_fifth_page {
+    height: 100%;
+    width: 89.85%;
+    margin-left: 10vw;
+}
+
+.header_getInTouch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vw;
+    margin-top: 5vw;
+}
+
+.header_getInTouch__subtitle {
+    width: 40%;
+}
+
+.fifth_container {
+    width: 100%;
+    height: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.bcgrey {
+    background-color: #e6e6e6;
+}
+
+.content_fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10%;
+    height: 70%;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    gap: 3vw;
+    width: 100%;
+}
+
+.name_field {
+    width: 45%;
+    height: 4vw;
+    padding-left: 3vw;
+    border-radius: 6px;
+    font-family: 'Lato';
+}
+
+.mail_field {
+    width: 45%;
+    height: 4vw;
+    padding-left: 3vw;
+    border-radius: 6px;
+    font-family: 'Lato';
+}
+
+.message_field {
+    width: 93%;
+    height: 60%;
+    padding: 1.5vw 1vw 0 3vw;
+    border-radius: 6px;
+    font-family: 'Lato';
+}
+
+.send_button {
+    width: 100%;
+    font-family: 'Lato';
+    color: #fff;
+    background-color: #ff2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--mainTransition);
+    user-select: none;
+}
+
+.send_button:hover {
+    transform: scale(1.1, 1.1);
+    background-color: #fff;
+    cursor: pointer;
+    color: #ff2b2b;
+    border: solid #ff2b2b;
+}
+
+.send_button:active {
+    opacity: 0.8;
+    color: #f54343c5;
+    border: solid #f54343c5;
+}
+
+.content_info {
+    height: 70%;
+    width: 40%;
+    background-color: #292929;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 22% 0 0 12%;
+    width: 50%;
+    height: 45%;
+    font-family: 'Lato';
+    font-weight: 100;
+    font-size: 1vw;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cw {
+    color: #fff;
+}
+
+.cg {
+    color: hsl(0deg 0% 68%);
+}
