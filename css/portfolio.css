@@ -45,11 +45,15 @@
 .middle_menu__item {
     font-size: 2.5vmin;
     user-select: none;
+    color: #000;
 }
 
 .middle_menu__item:hover {
     color: hsl(213deg 89% 50%);
     cursor: pointer;
+}
+.middle_menu__item:active {
+    color: hsl(213deg 90% 30%);
 }
 
 .wrap_picture {
@@ -67,50 +71,103 @@
     height: 19vw;
 }
 
-.paper {
-    background-image: url(../img/paper.jpg);
+.pic {
     background-size: cover;
     background-position: 50% 50%;
+}
+
+.paper {
+    background-image: url(../img/paper.jpg);
+    transition: var(--mainTransition);
+}
+
+.paper:hover {
+    transform: scale(1.05, 1.05);
+    filter: brightness(0.75);
+    box-shadow: 1px 1px 5px 0px;
+    cursor: pointer;
 }
 
 .bottle {
     background-image: url(../img/bottles.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+    transition: var(--mainTransition);
+}
+
+.bottle:hover {
+    transform: scale(1.05, 1.05);
+    filter: brightness(0.75);
+    box-shadow: 1px 1px 5px 0px;
+    cursor: pointer;
 }
 
 .cup {
     background-image: url(../img/cup.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+    transition: var(--mainTransition);
+}
+
+.cup:hover {
+    transform: scale(1.05, 1.05);
+    filter: brightness(0.85);
+    box-shadow: 1px 1px 5px 0px;
+    cursor: pointer;
 }
 
 .expo {
     background-image: url(../img/expo.webp);
-    background-size: cover;
-    background-position: 50% 50%;
+    transition: var(--mainTransition);
+}
+
+.expo:hover {
+    transform: scale(1.05, 1.05);
+    filter: brightness(0.75);
+    box-shadow: 1px 1px 5px 0px;
+    cursor: pointer;
 }
 
 .butterfly {
     background-image: url(../img/butterfly.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+    transition: var(--mainTransition);
+}
+
+.butterfly:hover {
+    transform: scale(1.05, 1.05);
+    filter: brightness(0.75);
+    box-shadow: 1px 1px 5px 0px;
+    cursor: pointer;
 }
 
 .certificate {
     background-image: url(../img/certificate.PNG);
-    background-size: cover;
-    background-position: 50% 50%;
+    transition: var(--mainTransition);
+}
+
+.certificate:hover {
+    transform: scale(1.05, 1.05);
+    filter: brightness(0.75);
+    box-shadow: 1px 1px 5px 0px;
+    cursor: pointer;
 }
 
 .resume {
     background-image: url(../img/resume.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+    transition: var(--mainTransition);
+}
+
+.resume:hover {
+    transform: scale(1.05, 1.05);
+    filter: brightness(0.75);
+    box-shadow: 1px 1px 5px 0px;
+    cursor: pointer;
 }
 
 .home {
     background-image: url(../img/house.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
+    transition: var(--mainTransition);
+}
+
+.home:hover {
+    transform: scale(1.05, 1.05);
+    filter: brightness(0.75);
+    box-shadow: 1px 1px 5px 0px;
+    cursor: pointer;
 }

@@ -39,7 +39,9 @@
     height: 70%;
     width: 50%;
 }
-
+.content_fields a{
+    width: 100%;
+}
 .row {
     display: flex;
     gap: 3vw;
@@ -70,6 +72,27 @@
     font-family: 'Lato';
 }
 
+.message_field::-webkit-scrollbar {
+    width: 2vmin;
+  }
+  
+  .message_field::-webkit-scrollbar-thumb {
+    background-color: #ff2b2b;
+    border-radius: 4px;
+  }
+  
+  .message_field::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(0deg 100% 48%);
+    cursor: auto;
+  }
+  
+  .message_field::-webkit-scrollbar-thumb:active {
+    background-color: hsl(0deg 100% 42%);
+  }
+  
+  .message_field::-webkit-scrollbar-track {
+    background-color: white;
+  }
 .send_button {
     width: 100%;
     font-family: 'Lato';

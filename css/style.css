@@ -3,6 +3,8 @@ html, body {
   width: 100%;
   --mainTransition: 0.4s;
   --lineProperty: 2px;
+  scroll-behavior:smooth;
+  perspective: 1000px;
 }
 
 ::selection {
@@ -107,4 +109,8 @@ input:focus::-webkit-input-placeholder {
 .ourVideo__videoWrap {
   min-width: 75%;
 }
+}
+/* cursor:pointer для нужных элементов */
+.cp{
+  cursor: pointer;
 }

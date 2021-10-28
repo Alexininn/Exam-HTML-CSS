@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en-GB">
 
 <head>
 	<meta charset='utf-8'>
@@ -11,6 +11,7 @@
 	<link rel='stylesheet' href='css/email.css'>
 	<link rel='stylesheet' href='css/contact.css'>
 	<link rel='stylesheet' href='css/footer.css'>
+	<link rel='icon' href='img/icon.png'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Exam work</title>
 </head>
@@ -18,18 +19,26 @@
 <body>
 	<div class="wrap_first_page">
 		<div class="head_menu">
-			<div class="head_menu__item item">
-				<span>HOME</span>
-			</div>
-			<div class="head_menu__item item">
-				<span>PORTFOLIO</span>
-			</div>
-			<div class="head_menu__item item">
-				<span>ABOUT US</span>
-			</div>
-			<div class="head_menu__item item">
-				<span>CONTACT</span>
-			</div>
+			<a href="#Home">
+				<div class="head_menu__item item">
+					<span>HOME</span>	
+				</div>
+			</a>
+			<a href="#portfolio">
+				<div class="head_menu__item item">
+					<span>PORTFOLIO</span>
+				</div>
+			</a>
+			<a href="#about">
+				<div class="head_menu__item item">
+					<span>ABOUT US</span>
+				</div>
+			</a>
+			<a href="#contact">
+				<div class="head_menu__item item">
+					<span>CONTACT</span>
+				</div>
+			</a>
 		</div>
 		<div class="preview">
 			<div class="preview__title title">
@@ -39,20 +48,22 @@
 				<div> Saepe ullam incidunt corrupti quo quod eius placeat adipisci?</div>
 				Impedit, minima.
 			</div>
-			<div class="preview__button button">
-				<span> Contact Us</span>
-			</div>
+			<a href="#contact">
+				<div class="preview__button button">
+					<span> Contact Us</span>
+				</div>
+			</a>
 		</div>
 		<div class="ourVideo">
 			<div class="ourVideo__videoWrap">
 				<video class="ourVideo__video1Stage" poster="img/girl.jpg">
 					<source src="img/video/ItStep.mp4">
 				</video>
-				<div class="ourVideo__icon"> <img src="img/Play.png" alt=""> </div>
+				<div class="ourVideo__hov"><img class="video_icon" src="img/Play.png" alt=""></div>
 			</div>
 		</div>
 	</div>
-	<div class="wrap_second_page">
+	<div id="Home" class="wrap_second_page">
 		<div class="wrap_second_page__left_part">
 			<div class="center">
 				<div class="wrap_second_page__title title">
@@ -64,9 +75,11 @@
 					dolorum cupiditate, repellendus eaque non commodi distinctio,
 					consectetur dolor iusto rem nobis accusantium sunt quia.
 				</div>
-				<div class="wrap_second_page__button button">
-					<span> Learn More </span>
-				</div>
+				<a href="">
+					<div class="wrap_second_page__button button">
+						<span> Learn More </span>
+					</div>
+				</a>
 			</div>
 		</div>
 		<div class="wrap_second_page__right_part">
@@ -127,7 +140,7 @@
 		</div>
 	</div>
 	<div class="line_btw"></div>
-	<div class="wrap_third_page">
+	<div id="portfolio" class="wrap_third_page">
 		<div class="header mt10">
 			<div class="header__title title">
 				FEATURE PRODUCTS
@@ -141,24 +154,24 @@
 			<div class="line"></div>
 		</div>
 		<div class="middle_menu">
-			<div class="middle_menu__item item">ALL</div>
-			<div class="middle_menu__item item">PRINT TEMPLATE</div>
-			<div class="middle_menu__item item">WEB TEMPLATE</div>
-			<div class="middle_menu__item item">USER INTERFACE</div>
-			<div class="middle_menu__item item">MOCK-UP</div>
+			<a href=""><div class="middle_menu__item item">ALL</div></a>
+			<a href=""><div class="middle_menu__item item">PRINT TEMPLATE</div></a>
+			<a href=""><div class="middle_menu__item item">WEB TEMPLATE</div></a>
+			<a href=""><div class="middle_menu__item item">USER INTERFACE</div></a>
+			<a href=""><div class="middle_menu__item item">MOCK-UP</div></a>
 		</div>
 		<div class="wrap_picture">
-			<div class="wrap_picture__pic paper"></div>
-			<div class="wrap_picture__pic bottle"></div>
-			<div class="wrap_picture__pic cup"></div>
-			<div class="wrap_picture__pic expo"></div>
-			<div class="wrap_picture__pic butterfly"></div>
-			<div class="wrap_picture__pic certificate"></div>
-			<div class="wrap_picture__pic resume"></div>
-			<div class="wrap_picture__pic home"></div>
+			<div class="wrap_picture__pic paper pic"></div>
+			<div class="wrap_picture__pic bottle pic"></div>
+			<div class="wrap_picture__pic cup pic"></div>
+			<div class="wrap_picture__pic expo pic"></div>
+			<div class="wrap_picture__pic butterfly pic"></div>
+			<div class="wrap_picture__pic certificate pic"></div>
+			<div class="wrap_picture__pic resume pic"></div>
+			<div class="wrap_picture__pic home pic"></div>
 		</div>
 	</div>
-	<div class="wrap_fourth_page">
+	<div id="about" class="wrap_fourth_page">
 		<div class="header_team">
 			<div class="title">MEET OUR TEAM</div>
 			<div class="header_team__subtitle subtitle">
@@ -170,7 +183,7 @@
 			<div class="line"></div>
 		</div>
 		<div class="container_team">
-			<div class="team_lead"></div>
+			<div class="team_lead cp"></div>
 			<div class="wrap_team">
 				<div class="greeting">
 					<span class="Mark">MARK WAUGH</span>
@@ -186,10 +199,18 @@
 					</div>
 				</div>
 				<div class="members">
-					<div class="Sokina photo"></div>
-					<div class="Alex photo"></div>
-					<div class="Bill photo"></div>
-					<div class="Lucy photo"></div>
+					<div class="Bond photo df cp">
+						<div class="hover_name">JAMES BOND</div>
+					</div>
+					<div class="Sokina photo df cp">
+						<div class="hover_name">SOKINA JUE</div>
+					</div>
+					<div class="Bill photo df cp">
+						<div class="hover_name">BILL FUNNY</div>
+					</div>
+					<div class="Willy photo df cp">
+						<div class="hover_name">WILLY WONKA</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -203,13 +224,15 @@
 			</div>
 			<div class="email__field">
 				<input class="email__input" placeholder='Email Adress...' type="text">
-				<div class="subscribe">
-					SUBSCRIBE
-				</div>
+				<a href="">
+					<div class="subscribe">
+						SUBSCRIBE
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
-	<div class="wrap_fifth_page">
+	<div id="contact" class="wrap_fifth_page">
 		<div class="header_getInTouch">
 			<div class="title">
 				GET IN TOUCH
@@ -229,9 +252,11 @@
 					<input class="mail_field bcgrey" placeholder="Your Mail" type="text">
 				</div>
 				<textarea class="message_field bcgrey" placeholder="Type your message"></textarea>
-				<div class="send_button button">
-					<span> SEND MESSAGE </span>
-				</div>
+				<a href="">
+					<div class="send_button button">
+						<span> SEND MESSAGE </span>
+					</div>
+				</a>
 			</div>
 			<div class="content_info">
 				<div class="contact_info">
@@ -247,13 +272,13 @@
 	</div>
 	<div class="footer">
 		<div class="footer__container_left container">
-			<span> © Copyright @junaed 2016, All rights reserved. </span>
+			<small> © Copyright @junaed 2016, All rights reserved. </small>
 		</div>
 		<div class="footer__container_right container">
-			<div class="twiter logo"></div>
-			<div class="linkedIn logo"></div>
-			<div class="google logo"></div>
-			<div class="facebook logo"></div>
+			<a href="https://twitter.com/?lang=ru" target=’blank’><div class="twiter logo"></div></a>
+			<a href="https://www.linkedin.com/" target=’blank’><div class="linkedIn logo"></div></a>
+			<a href="https://www.instagram.com/" target=’blank’><div class="instagram logo"></div></a>
+			<a href="https://www.facebook.com/" target=’blank’><div class="facebook logo"></div></a>
 		</div>
 	</div>
 </body>

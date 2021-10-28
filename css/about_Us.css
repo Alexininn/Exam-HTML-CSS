@@ -30,6 +30,11 @@
     width: 20%;
     background-size: contain;
     background-repeat: no-repeat;
+    transition: var(--mainTransition);
+}
+.team_lead:hover {
+    transform: scale(1.1,1.1);
+    filter: drop-shadow(1px 1px 3px);
 }
 
 .wrap_team {
@@ -85,25 +90,78 @@
     background-repeat: no-repeat;
 }
 
-.Sokina {
+.df {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.Bond {
     background-image: url(../img/man_with_hair.jpg);
     background-size: cover;
     background-position: 50% 25%;
+    transition: var(--mainTransition);
+}
+.Bond:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px 5px 0px;
+}
+.Bond:hover .hover_name {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.Alex {
+.Sokina {
     background-image: url(../img/woman_glasses.webp);
     background-size: cover;
     background-position: 45% 30%;
+    transition: var(--mainTransition);
+}
+.Sokina:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px 5px 0px;
+}
+.Sokina:hover .hover_name {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .Bill {
     background-image: url(../img/Man_BW.jpg);
     background-size: cover;
     background-position: 50% 26%;
+    transition: var(--mainTransition);
+}
+.Bill:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px 5px 0px;
+}
+.Bill:hover .hover_name {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.Lucy {
+.Willy {
     background-image: url(../img/grayMan.jpg);
     background-size: cover;
+    transition: var(--mainTransition);
+}
+.Willy:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px 5px 0px;
+}
+.Willy:hover .hover_name {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hover_name {
+    color: transparent;
+    background-color: transparent;
+    text-align: center;
+    padding: 6% 0%;
+    width: 100%;
+    user-select: none;
+    font-family: 'Lato';
+    transition: var(--mainTransition);
 }
