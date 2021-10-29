@@ -111,6 +111,7 @@ input:focus::-webkit-input-placeholder {
   top: 50px;
   right: 50px;
   cursor: url(../img/cursor/pointer.png), pointer;
+  z-index: 5;
 }
 
 .arrow_down {
@@ -121,6 +122,7 @@ input:focus::-webkit-input-placeholder {
   bottom: 50px;
   right: 50px;
   cursor: url(../img/cursor/pointer.png), pointer;
+  z-index: 5;
 }
 
 @media (min-width:0px) and (max-width:1070px) {
