@@ -50,7 +50,7 @@
 
 .middle_menu__item:hover {
     color: hsl(213deg 89% 50%);
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 .middle_menu__item:active {
     color: hsl(213deg 90% 30%);
@@ -85,7 +85,7 @@
     transform: scale(1.05, 1.05);
     filter: brightness(0.75);
     box-shadow: 1px 1px 5px 0px;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .bottle {
@@ -97,7 +97,7 @@
     transform: scale(1.05, 1.05);
     filter: brightness(0.75);
     box-shadow: 1px 1px 5px 0px;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .cup {
@@ -109,7 +109,7 @@
     transform: scale(1.05, 1.05);
     filter: brightness(0.85);
     box-shadow: 1px 1px 5px 0px;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .expo {
@@ -121,7 +121,7 @@
     transform: scale(1.05, 1.05);
     filter: brightness(0.75);
     box-shadow: 1px 1px 5px 0px;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .butterfly {
@@ -133,7 +133,7 @@
     transform: scale(1.05, 1.05);
     filter: brightness(0.75);
     box-shadow: 1px 1px 5px 0px;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .certificate {
@@ -145,7 +145,7 @@
     transform: scale(1.05, 1.05);
     filter: brightness(0.75);
     box-shadow: 1px 1px 5px 0px;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .resume {
@@ -157,7 +157,7 @@
     transform: scale(1.05, 1.05);
     filter: brightness(0.75);
     box-shadow: 1px 1px 5px 0px;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .home {
@@ -169,5 +169,5 @@
     transform: scale(1.05, 1.05);
     filter: brightness(0.75);
     box-shadow: 1px 1px 5px 0px;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }

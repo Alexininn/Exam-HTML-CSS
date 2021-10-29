@@ -32,18 +32,14 @@
     user-select: none;
     transition: var(--mainTransition);
 }
-.head_menu a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .item {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .head_menu__item:hover {
     background-color: #ff3b43;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 .head_menu__item:active {
     background-color: hsl(352deg 80% 50%);
@@ -93,7 +89,7 @@
     background-color: #f8f2ef;
     color: #ff2b2b;
     border: solid #ff2b2b 0.5vmin;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 .preview__button:active {
     opacity: 0.6;
@@ -127,7 +123,7 @@
 }
 .ourVideo__hov:hover  .video_icon{
     opacity: 1;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 .video_icon:hover {
     transform: scale(1.1,1.1);

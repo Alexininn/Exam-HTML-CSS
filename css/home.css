@@ -59,7 +59,7 @@
 .wrap_second_page__button:hover {
     transform: scale(1.1, 1.1);
     background-color: #ff2b2b;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .wrap_second_page__button:active {

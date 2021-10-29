@@ -45,6 +45,7 @@
     border-radius: 5px;
     text-indent: 7%;
     font-family: 'Lato';
+    cursor: url(../img/cursor/text.png), text;
 }
 
 .subscribe {
@@ -63,7 +64,7 @@
     background-color: #fff;
     color: #ff2b2b;
     border: solid #ff2b2b;
-    cursor: pointer;
+    cursor:url(../img/cursor/pointer.png), pointer;
 }
 
 .subscribe:active {

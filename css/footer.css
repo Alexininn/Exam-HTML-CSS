@@ -33,6 +33,9 @@
     width: 9%;
     height: 33%;
 }
+.footer__container_right div{
+cursor: url(../img/cursor/pointer.png), pointer;
+}
 .logo {
     width: 100%;
     height: 100%;
