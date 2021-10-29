@@ -51,6 +51,7 @@
 .subscribe {
     background-color: #ff2b2b;
     font-size: 1vw;
+    font-family: 'Lato';
     border-radius: 0.5vmin;
     padding: 0.92vw 3vw;
     color: #fff;

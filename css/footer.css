@@ -1,7 +1,7 @@
 /* Шестая страница */
 
 .footer {
-    height: 12%;
+    height: 15%;
     width: 100%;
     background-color: #312b2c;
     display: flex;
@@ -10,14 +10,14 @@
 }
 
 .container {
-    width: 30%;
+    width: 31%;
     height: 100%;
     color: #a6a6a6;
     font-family: 'lato';
 }
 
 .footer__container_left {
-    text-align: right;
+    text-align: left;
     display: flex;
     justify-content: flex-end;
     align-items: center;
