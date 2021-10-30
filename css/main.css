@@ -39,8 +39,9 @@
 
 .head_menu__item:hover {
     background-color: #ff3b43;
-    cursor:url(../img/cursor/pointer.png), pointer;
+    cursor: url(../img/cursor/pointer.png), pointer;
 }
+
 .head_menu__item:active {
     background-color: hsl(352deg 80% 50%);
 }
@@ -89,11 +90,13 @@
     background-color: #f8f2ef;
     color: #ff2b2b;
     border: solid #ff2b2b 0.5vmin;
-    cursor:url(../img/cursor/pointer.png), pointer;
+    cursor: url(../img/cursor/pointer.png), pointer;
 }
+
 .preview__button:active {
     opacity: 0.6;
 }
+
 .ourVideo {
     display: flex;
     flex-direction: row;
@@ -103,49 +106,45 @@
     background-color: #f8f2ef;
 }
 
+.container_video {
+    width: 75%;
+    height: 48vh;
+    margin-bottom: 10%;
+}
+
 .ourVideo__hov {
     position: relative;
     width: 100%;
     height: 48vh;
     top: -48.4vh;
     transition: var(--mainTransition);
-    user-select: none;
 }
-.ourVideo__hov .video_icon {
+
+.video_icon {
     position: absolute;
     top: calc(50% - 32.5px);
     left: calc(50% - 32.5px);
     opacity: 0;
-    transition: var(--mainTransition);
 }
+
 .ourVideo__hov:hover {
     backdrop-filter: brightness(0.7);
 }
-.ourVideo__hov:hover  .video_icon{
+
+.ourVideo__hov:hover .video_icon {
     opacity: 1;
-    cursor:url(../img/cursor/pointer.png), pointer;
-}
-.video_icon:hover {
-    transform: scale(1.1,1.1);
-}
-.video_icon:active {
-    transform: scale(1.2,1.2);
-}
-.ourVideo__videoWrap {
-    width: 75%;
-    height: 48vh;
-    margin-bottom: 10%;
+    cursor: url(../img/cursor/pointer.png), pointer;
 }
 
-.ourVideo__videoWrap:hover .ourVideo__icon {
+.video_icon:hover {
     transform: scale(1.1, 1.1);
-    cursor: pointer;
 }
-.ourVideo__videoWrap:active .ourVideo__icon {
+
+.video_icon:active {
     transform: scale(1.2, 1.2);
 }
 
-.ourVideo__video1Stage {
+.Girl {
     width: 100%;
     height: 48vh;
     object-fit: cover;
