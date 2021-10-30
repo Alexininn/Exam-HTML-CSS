@@ -8,6 +8,8 @@
     height: 100%;
     width: 100%;
     background-color: #f8f2ef;
+    position: relative;
+    z-index: 1;
 }
 
 .head_menu {
