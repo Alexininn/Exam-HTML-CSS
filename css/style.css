@@ -5,7 +5,7 @@ html, body {
   --lineProperty: 2px;
   scroll-behavior: smooth;
   cursor: url(../img/cursor/default.png), auto;
-  /* overflow: hidden;   */                                       /* НЕ ЗАБУУУУУУУУУУУУУУУУУУУУУУУУУУУУУУДЬ  */
+  overflow: hidden;                                     
   animation: overflow_visible 0.5s linear 3s  forwards;
 }
 
@@ -96,7 +96,6 @@ input {
 
 ::-webkit-input-placeholder {
   opacity: 1;
-  /* Выучить*/
   transition: opacity 0.3s ease;
 }
 
@@ -230,8 +229,6 @@ font-size: 3vw;
 font-family: 'Lato';
 position: absolute;
 width: 12.5vw;
-/* left: calc(50% - 6.25vw);
-top: calc(50% - 150px); */
 right: 3%;
 bottom: 0%;
 }
