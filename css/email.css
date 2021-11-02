@@ -71,3 +71,32 @@
 .subscribe:active {
     opacity: 0.8;
 }
+@media (max-width:1070px) {
+    .subscribe {
+        font-size: 1.5vw;
+    }
+    .email__subtitle {
+        font-size: 1.5vw;
+    }
+    .email__input{
+        height: 4vw;
+        width: 42vw;
+        font-size: 1.5vw;
+    }
+}
+@media (max-width:745px) {
+    .email__subtitle {
+        font-size: 2.5vw;
+    }
+    .email__title{
+        font-size: 4vw;
+    }
+    .subscribe {
+        font-size: 2vw;
+    }
+    .email__input{
+        height: 5vw;
+        width: 55vw;
+        font-size: 2vw;
+    }
+}

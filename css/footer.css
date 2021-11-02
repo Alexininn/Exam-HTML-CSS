@@ -15,7 +15,9 @@
     color: #a6a6a6;
     font-family: 'lato';
 }
-
+.container small {
+    font-size: 2vmin;
+}
 .footer__container_left {
     display: flex;
     justify-content: flex-end;

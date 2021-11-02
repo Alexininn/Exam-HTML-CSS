@@ -155,3 +155,22 @@
 .cg {
     color: hsl(0deg 0% 68%);
 }
+@media (max-width:1100px) {
+    input {
+        font-size: 1.5vw;
+    }
+    textarea {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width:1040px) {
+    .header_getInTouch__subtitle {
+        width: 60%;
+    }
+
+.contact_info{
+    font-size: 1.5vw;
+    margin: 30% 0 0 12%;
+}
+}

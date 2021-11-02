@@ -170,3 +170,8 @@
     font-family: 'Lato';
     transition: var(--mainTransition);
 }
+@media (max-width:980px) {
+    .header_team {
+        margin: 0 0 0 10vw;
+    }
+}

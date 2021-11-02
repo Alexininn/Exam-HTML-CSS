@@ -5,7 +5,7 @@ html, body {
   --lineProperty: 2px;
   scroll-behavior: smooth;
   cursor: url(../img/cursor/default.png), auto;
-  overflow: hidden;
+  /* overflow: hidden;   */                                       /* НЕ ЗАБУУУУУУУУУУУУУУУУУУУУУУУУУУУУУУДЬ  */
   animation: overflow_visible 0.5s linear 3s  forwards;
 }
 
@@ -109,9 +109,12 @@ input:focus::-webkit-input-placeholder {
 
 .arrow_up {
   position: fixed;
-  height: 96px;
-  width: 96px;
+  height: 7vw;
+  width: 7vw;
+  min-height: 4vw;
+  min-width: 4vw;
   background-image: url(../img/arrow_up.png);
+  background-size: contain;
   top: 50px;
   right: 50px;
   transition: var(--mainTransition);
@@ -125,9 +128,12 @@ input:focus::-webkit-input-placeholder {
 
 .arrow_down {
   position: fixed;
-  height: 96px;
-  width: 96px;
+  height: 7vw;
+  width: 7vw;
+  min-height: 4vw;
+  min-width: 4vw;
   background-image: url(../img/arrow_down.png);
+  background-size: contain;
   bottom: 50px;
   right: 50px;
   transition: var(--mainTransition);
@@ -137,15 +143,6 @@ input:focus::-webkit-input-placeholder {
 .arrow_down:hover {
   transform: scale(1.3, 1.3);
   cursor: url(../img/cursor/pointer.png), pointer;
-}
-
-@media (min-width:0px) and (max-width:1070px) {
-  .head_menu {
-    gap: 8%;
-  }
-  .ourVideo__videoWrap {
-    min-width: 75%;
-  }
 }
 
 /* Loaging */
@@ -248,5 +245,19 @@ bottom: 0%;
 @keyframes overflow_visible {
   to {
    overflow:visible;
+  }
+}
+/* Адаптив */
+@media  (max-width: 1150px) {
+
+}
+@media (max-width: 1070px) {
+  .arrow_up {
+    top: 75px;
+    right: 15px;
+  }
+  .arrow_down {
+    bottom: 75px;
+    right: 15px;
   }
 }
